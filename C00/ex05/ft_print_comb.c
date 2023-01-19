@@ -11,6 +11,14 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that displays all different combinations of three different digits in
+// ascending order, listed by ascending order - yes, repetition is voluntary.
+// Here’s the intended output:
+// 012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 789$>
+// 987 isn’t there because 789 already is.
+// 999 isn’t there because the digit 9 is present more than once.
+// Allowed functions: write
+
 void	ft_print_comb(void)
 {
 	int	a;
