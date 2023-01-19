@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that swaps the value of two integers whose addresses are entered
+// as parameters.
+// Allowed functions: None
+
 void	ft_swap(int *a, int *b)
 {
 	int	temp;
