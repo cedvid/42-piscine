@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that displays all digits, on a single line, by ascending order.
+// Allowed functions: write
+
 void	ft_print_numbers(void)
 {
 	int	num;
