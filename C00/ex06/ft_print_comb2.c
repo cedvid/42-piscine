@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that displays all different combination of two two digits numbers
+// (XX XX) between 00 and 99, listed by ascending order.
+// Allowed functions: write
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
