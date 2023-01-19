@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function which sorts an array of integers by ascending order.
+// The arguments are a pointer to int and the number of ints in the array
+// Allowed functions : None
+
 void	ft_sort_int_tab(int *tab, int size)
 {
 	int	i;
