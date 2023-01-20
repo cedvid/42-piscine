@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that displays the number entered as a parameter. The function
+// has to be able to display all possible values within an int type variable.
+// Allowed functions : write
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
