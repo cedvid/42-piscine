@@ -11,6 +11,12 @@
 /* ************************************************************************** */
 #include <stdlib.h>
 
+// Create a function ft_range which returns an array ofints. This int array should
+// contain all values between min and max.
+// Min included - max excluded.
+// If min´value is greater or equal to max’s value, a null pointer should be returned.
+// Allowed functions : malloc
+
 int	*ft_range(int min, int max)
 {
 	int	*result;

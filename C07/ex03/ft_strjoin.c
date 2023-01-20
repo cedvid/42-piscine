@@ -11,6 +11,12 @@
 /* ************************************************************************** */
 #include <stdlib.h>
 
+// Write a function that will concatenate all the strings pointed by strs separated by
+// sep.
+// size is the number of strings in strs
+// if size is 0, you must return an empty string that you can free().
+// Allowed functions : malloc
+
 char	*ft_strjoin(int size, char **strs, char *sep)
 {
 	int		i;

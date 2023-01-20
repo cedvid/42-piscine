@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <stdlib.h>
 
+// Reproduce the behavior of the function strdup (man strdup).
+// Allowed functions : malloc
+
 int	ft_strlen(char *str)
 {
 	int	i;
