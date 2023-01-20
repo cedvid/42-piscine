@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Reproduce the behavior of the function strcpy (man strcpy).
+// Allowed functions : None
+
 char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
