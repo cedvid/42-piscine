@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Reproduce the behavior of the function strlcpy (man strlcpy).
+// Allowed functions : None
+
 int	ft_strlen(char *str)
 {
 	int	i;

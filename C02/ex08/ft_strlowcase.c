@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that transforms every letter to lowercase.
+// Allowed functions : None
+
 char	*ft_strlowcase(char *str)
 {
 	int	i;

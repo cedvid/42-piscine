@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that transforms every letter to uppercase.
+// Allowed functions : None
+
 char	*ft_strupcase(char *str)
 {
 	int	i;

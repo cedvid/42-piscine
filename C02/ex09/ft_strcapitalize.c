@@ -11,6 +11,14 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that capitalizes the first letter of each word and transforms all
+// other letters to lowercase.
+// For example:
+// salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un
+// Becomes:
+// Salut, Comment Tu Vas ? 42mots Quarante-Deux; Cinquante+Et+Un
+// Allowed functions : None
+
 char	*ft_strlowcase(char *str)
 {
 	int	i;
