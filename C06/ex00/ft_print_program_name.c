@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a program that displays its own name followed by a new line.
+// Allowed functions : write
+
 void	ft_putstr(char *str)
 {
 	int	i;

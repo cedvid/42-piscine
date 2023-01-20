@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a program that displays its given arguments sorted by ascii order.
+// Allowed functions : write
+
 void	ft_putstr(char *str)
 {
 	int	i;

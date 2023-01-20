@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a program that displays its given arguments.
+// One per line, in the reverse order of the command line.
+// Allowed functions : write
+
 void	ft_putstr(char *str)
 {
 	int	i;
