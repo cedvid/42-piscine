@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Reproduce the behavior of the function strcat (man strcat).
+// Allowed functions : None
+
 char	*ft_strcat(char *dest, char *src)
 {
 	int	i;

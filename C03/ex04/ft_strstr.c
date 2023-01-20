@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Reproduce the behavior of the function strstr (man strstr).
+// Allowed functions : None
+
 char	*ft_strstr(char *str, char *to_find)
 {
 	int	i;

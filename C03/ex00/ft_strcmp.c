@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Reproduce the behavior of the function strcmp (man strcmp).
+// Allowed functions : None
+
 int	ft_strcmp(char *s1, char *s2)
 {
 	int	i;
