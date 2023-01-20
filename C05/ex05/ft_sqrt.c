@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that returns the square root of a number (if it exists), or 0 if the
+// square root is an irrational number.
+// Allowed functions : None
+
 int	ft_sqrt(int nb)
 {
 	int	i;

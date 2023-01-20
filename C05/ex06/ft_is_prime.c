@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
+// Create a function that returns 1 if the number given as a parameter is a prime
+// number, and 0 if it isn’t.
+// Allowed functions : None
+
 int	ft_is_prime(int nb)
 {
 	int	i;
